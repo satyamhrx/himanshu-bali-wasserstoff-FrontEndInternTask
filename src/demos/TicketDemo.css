@@ -1,0 +1,17 @@
+.ticket-demo-bg {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #1a1333 0%, #6C47FF 100%);
+  overflow: hidden;
+}
+
+.ticket-demo-card {
+  background: rgba(30, 18, 54, 0.95);
+  box-shadow: 0 4px 32px 0 rgba(162, 89, 255, 0.15);
+  padding: 0;
+  max-width: 600px;
+  border-radius: 18px;
+}

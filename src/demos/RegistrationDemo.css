@@ -1,0 +1,71 @@
+.registration-bg {
+  min-height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background: linear-gradient(120deg, #1a1333 0%, #6C47FF 100%);
+  overflow: hidden;
+}
+
+.registration-card {
+  background: rgba(30, 18, 54, 0.95);
+  box-shadow: 0 4px 32px 0 rgba(162, 89, 255, 0.15);
+  padding: 0;
+  max-width: 600px;
+  border-radius: 18px;
+}
+
+.registration-content {
+  padding: 32px;
+}
+
+.registration-title-row {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 12px;
+}
+
+.registration-title-icon {
+  font-size: 22px;
+  margin-right: 8px;
+}
+
+.registration-title {
+  color: #fff;
+  font-weight: 700;
+  font-size: 1.1rem;
+}
+
+.registration-heading {
+  color: #fff;
+  font-size: 1.6rem;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.registration-desc {
+  color: #fff;
+  opacity: 0.85;
+  margin-bottom: 24px;
+  text-align: center;
+}
+
+.registration-congrats {
+  color: #fff;
+  font-weight: 700;
+  font-size: 2rem;
+  margin: 0;
+}
+
+.registration-highlight {
+  color: #F3C77B;
+}
+
+.registration-info {
+  color: #fff;
+  opacity: 0.85;
+  margin: 18px 0 0 0;
+  font-size: 1.05rem;
+}
