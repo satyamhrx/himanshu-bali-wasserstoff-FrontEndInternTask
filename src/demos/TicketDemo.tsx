@@ -7,7 +7,7 @@ export const TicketDemo: React.FC = () => {
   return (
     <div className="ticket-demo-bg">
       <div className="ticket-demo-card">
-        <Ticket name="Jontan Kristof" email="jontan@email.com" ticketId="CONF-ABCD1234" />
+        <Ticket name="Jontan Kristof" ticketId="CONF-ABCD1234" />
       </div>
     </div>
   );

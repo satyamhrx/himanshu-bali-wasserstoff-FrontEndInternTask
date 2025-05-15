@@ -2,7 +2,7 @@ import React, { useRef, useState } from "react";
 import "./AvatarUpload.css";
 
 export interface AvatarUploadProps {
-  value?: string; // base64 or object URL
+  value: string | null; // base64 or object URL
   onChange: (fileUrl: string | null) => void;
 }
 

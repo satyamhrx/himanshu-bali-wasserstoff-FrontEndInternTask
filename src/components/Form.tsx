@@ -69,7 +69,7 @@ export const Form: React.FC<FormProps> = ({ onSubmit, style = {} }) => {
         error={errors.password}
         disabled={submitting}
       />
-      <Button type="submit" disabled={submitting} style={{ width: '100%', marginTop: 12 }}>
+      <Button type="submit" disabled={submitting}>
         {submitting ? 'Submitting...' : 'Get Your Ticket'}
       </Button>
     </form>

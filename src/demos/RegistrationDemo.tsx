@@ -1,5 +1,4 @@
 import React, { useState } from 'react';
-import { Card } from '../components/Card';
 import { Form } from '../components/Form';
 import { Ticket } from '../components/Ticket';
 import './RegistrationDemo.css';
@@ -49,7 +48,7 @@ export const RegistrationDemo: React.FC = () => {
             <p className="registration-info">
               We've emailed your ticket to <span className="registration-highlight">{ticket.email}</span> and will send updates in the run up to the event.
             </p>
-            <Ticket name={ticket.name} email={ticket.email} ticketId={ticket.ticketId} />
+            <Ticket name={ticket.name} ticketId={ticket.ticketId} />
           </div>
         )}
       </div>

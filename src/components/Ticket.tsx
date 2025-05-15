@@ -3,12 +3,11 @@ import '../components/Ticket.css';
 
 export type TicketProps = {
   name: string;
-  email: string;
   ticketId: string;
   style?: React.CSSProperties;
 };
 
-export const Ticket: React.FC<TicketProps> = ({ name, email, ticketId }) => {
+export const Ticket: React.FC<TicketProps> = ({ name, ticketId }) => {
   // Generate a handle from the name
   const handle = '@' + name.toLowerCase().replace(/\s+/g, '') + '01';
   return (
